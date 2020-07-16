@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 2 day 3</title>
+</head>
+<body>
+    <script>
+    const p='the quick brown fox jumpsover alazy fox, for which the dog reacted was the fox really lazy';
+    const regex =/dog/gi;
+    console.log(p.replace(regex,'feret'));
+    // expected output:the lazt brown fox jumps over the lazy ferret , for which the ferret reacted was the fox really lazy
+        
+        var str="mr blue has a blue house and a blue car";
+        var res=str.replace(/blue|house|car|gi,
+        function (x) 
+        {
+            return x.toUpperCase();
+        }};
+
+        // splice
+        var webDevelop=["html","css","js"];
+        document.write(webDevelop+"<br>");
+
+        var removed =webDevelop.splice(2,1,'php','react_native');
+
+        document.write(webDevelop+"<br>");
+        document.write(removed+"<br>");
+
+        webDevelop.splice(-2,0,'react')
+        document.write(webDevelop);
+
+    </script>
+</body>
+</html>
